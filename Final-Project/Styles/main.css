@@ -1,0 +1,117 @@
+body {
+	background-image: url("../IMG/reaper_background.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-color: black;
+	text-align: center;
+	font-family: arial;
+}
+
+header {
+	color: white;
+}
+
+footer {
+	color: white;
+	text-align: left;
+	margin-top: 50px;
+}
+
+nav ul {
+	list-style-type: none;
+	background-color: silver;
+	color: #ff0000;
+}
+
+nav ul li {
+	display: inline-block;
+	margin: 0px 40px;
+}
+
+.main {
+	color: white;
+	width: 600px;
+	margin: 0 auto;
+	height: 1050px;
+	position: relative;
+}
+
+.main.abilities {
+	height: 1350px;
+}
+
+.main.index {
+	height: 950px;
+}
+
+.skin {
+	display: inline-block;
+}
+
+.victory {
+	display: inline;
+	height: 100px;
+	width: 100px;
+}
+
+.caption {
+	text-align: center;
+	display: inline-block;
+}
+
+#carousel {
+	margin: 0 auto;
+	width: 600px;
+	height: 150px;
+	overflow-x: scroll;
+}
+
+#pictures {
+	width: 1350px;
+}
+
+#reaper {
+	width: 500px;
+	display: block;
+	margin: 0 auto;
+}
+
+.caption h4 {
+	margin-top: 0px;
+}
+
+.blue {
+	color: #00ccff;
+}
+
+.pink {
+	color: #cc0099;
+}
+
+.orange {
+	color: #ff9933;
+}
+
+.abilbody {
+	background-size: cover;
+}
+
+.main .veil {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: #000;
+	opacity: 0.5;
+}
+
+.main .content {
+	color: #fff;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
